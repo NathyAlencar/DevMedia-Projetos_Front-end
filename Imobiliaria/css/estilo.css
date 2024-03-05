@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: Verdana;
+}
+
+/*Estilos Globais*/
+
+.navbar, .Imovel, .sobre, .servicos, .corretores,.contato{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+
+/*1º seção*/
+
+.navbar{
+    background: #afddfb;
+}
+.navbar img{
+    width: 150px;
+}
+.secao{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.secao a{
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/*2º seção*/
+
+.Imovel{
+   margin-top: 50px; 
+   padding-top: 0;
+}
+/*estilo destaque*/
+span{
+    font-weight: bold;
+}
+/*3º seção*/
+h1{
+    color:#1d1d1d;
+    margin-bottom: 5px;
+}
+h2{
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.sobre img{
+    width: 450px;
+}
+
+.texto-azul{
+    color:#1d80c1; 
+}
+
+/*4º seção*/
+
+.servicos, .contato{
+    background: #1d80c1;
+    
+}
+
+h3{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.servicos p{
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+.texto-amarelo{
+    color: #fff81b;
+}
+
+.servicos-lista{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    width: 135px;
+}
+
+.servicos-item{
+    color: #fff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+/*5º seção*/
+
+.corretores{
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal; 
+}
+
+.corretores p{
+    color: #000000;
+   
+}
+.texto-azul{
+    color:#1d80c1; 
+}
+
+.corretores img{
+    width: 450px;
+}
+
+/*6º seção*/
+
+.contact {
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contato ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    list-style: none; /*tirar marcação*/   
+}   
+
+.contato li{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link-contato{
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
